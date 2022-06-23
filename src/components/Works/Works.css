@@ -2,7 +2,8 @@
     padding: 0 3rem 0 3rem;
     display: flex;
     height: 90vh;
-    margin-top: 4rem;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
   
     /* scroll */
     align-items: center;
@@ -51,6 +52,11 @@
     background: rgb(122, 93, 116);
     /* darkMode */
     z-index: 2;
+  }
+  .fac{
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
   }
   .w-mainCircle > * {
     position: absolute;

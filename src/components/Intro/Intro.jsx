@@ -39,7 +39,7 @@ const Intro = () => {
           {/* yahan change hy darkmode ka */}
           <span style={{ color: darkMode ? "white" : "" }}>Hy! I Am</span>
           <span>Ward Ruman</span>
-          <h1><span style={{color:"white"}} ref={textRef}></span></h1>
+          <h2><span style={{color:"white"}} ref={textRef}></span></h2>
         </div>
         <Link to="contact" smooth={true} spy={true}>
           <button className="button i-button">Hire me</button>
@@ -54,26 +54,6 @@ const Intro = () => {
       {/* right image side */}
       <div className="i-right">
         <img className="ward" src={war} alt="" />
-
-        <motion.div
-          initial={{ top: "10%", left: "74%" }}
-          whileInView={{ left: "68%" }}
-          transition={transition}
-          className="floating-div"
-          bgcolor="black"
-        >
-          <FloatinDiv img={crown} text1="Web" text2="Developer" />
-        </motion.div>
-
-        {/* animation */}
-        <motion.div
-          initial={{ left: "9rem", top: "18rem" }}
-          whileInView={{ left: "0rem" }}
-          transition={transition}
-          className="floating-div"
-        >
-          <FloatinDiv img={thumbup} text1="Best Design" text2="Award" />
-        </motion.div>
 
         <div className="blur" style={{ background: "rgb(238 210 255)" }}></div>
         <div

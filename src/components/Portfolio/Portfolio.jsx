@@ -42,7 +42,7 @@ const Portfolio = () => {
           </a>
         </SwiperSlide>
         <SwiperSlide>
-        <a href="https://dashboard-ruby-eight.vercel.app/" target="_blank">
+        <a href="https://redux-login-lilac.vercel.app/" target="_blank">
           <img src={reduxLogin} alt="" />
           </a>
         </SwiperSlide>
