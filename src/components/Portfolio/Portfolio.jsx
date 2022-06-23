@@ -9,6 +9,7 @@ import reduxLogin from "../../img/reduxLogin.png";
 import reduxProducts from "../../img/reduxProducts.png";
 import slid from "../../img/slid.png";
 import weather from "../../img/weather.png";
+import resturant from "../../img/resturant.png";
 import { themeContext } from "../../Context";
 const Portfolio = () => {
   const theme = useContext(themeContext);
@@ -59,6 +60,11 @@ const Portfolio = () => {
         <SwiperSlide>
         <a href="https://weather-bay.vercel.app/" target="_blank">
           <img src={weather} alt="" />
+          </a>
+        </SwiperSlide>
+        <SwiperSlide>
+        <a href="https://project-typescript.vercel.app/" target="_blank">
+          <img src={resturant} alt="" />
           </a>
         </SwiperSlide>
       </Swiper>
