@@ -35,7 +35,7 @@ const Portfolio = () => {
           </a>
         </SwiperSlide>
 <SwiperSlide>
-          <a href="https://search-repo-github.vercel.app//" target="_blank">
+          <a href="https://search-repo-github1.vercel.app/" target="_blank">
           <img src={srepo} alt="" />
           </a>
         </SwiperSlide>
