@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import "./Portfolio.css";
 import { Swiper, SwiperSlide } from "swiper/react"
 import "swiper/css";
+import vuexy from "../../img/vuexy.png";
 import dashboard from "../../img/dashboard.png";
 import face from "../../img/face.png";
 import hour from "../../img/hour.png";
@@ -27,6 +28,11 @@ const Portfolio = () => {
         grabCursor={true}
         className="portfolio-slider"
       >
+           <SwiperSlide>
+          <a href="https://re-ve-ne.vercel.app/" target="_blank">
+          <img src={vuexy} alt="" />
+          </a>
+        </SwiperSlide>
         <SwiperSlide>
           <a href="https://dashboard-ruby-eight.vercel.app/" target="_blank">
           <img src={dashboard} alt="" />
