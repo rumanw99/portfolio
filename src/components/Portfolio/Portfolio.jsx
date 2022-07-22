@@ -3,6 +3,7 @@ import "./Portfolio.css";
 import { Swiper, SwiperSlide } from "swiper/react"
 import "swiper/css";
 import vuexy from "../../img/vuexy.png";
+import srepo from "../../img/srepo.png";
 import dashboard from "../../img/dashboard.png";
 import face from "../../img/face.png";
 import hour from "../../img/hour.png";
@@ -31,6 +32,11 @@ const Portfolio = () => {
            <SwiperSlide>
           <a href="https://re-ve-ne.vercel.app/" target="_blank">
           <img src={vuexy} alt="" />
+          </a>
+        </SwiperSlide>
+<SwiperSlide>
+          <a href="https://search-repo-github.vercel.app//" target="_blank">
+          <img src={srepo} alt="" />
           </a>
         </SwiperSlide>
         <SwiperSlide>
